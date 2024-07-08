@@ -1,0 +1,33 @@
+.butonn {
+    margin-left: 650px;
+}
+.butone {
+    margin-left: 200px;
+}
+.boton-1 {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    box-shadow: orange;
+    transition: transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.boton-1::after {
+    content: "";
+    background-color:#ff9900;
+    background-image: linear-gradient(225deg,
+    #ff9900 0%
+    white 50%
+    #ff9900 100%
+    );
+    z-index:"";
+    transition: transform 0.5s ease;
+}
+.boton-1:hover {
+    transform: translate(0, -6px);
+    box-shadow: 10px -10px 25px 0 white
+                -10px 10px 25px 0 #ff9900
+    ;
+
+}

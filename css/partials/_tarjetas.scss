@@ -1,0 +1,81 @@
+.contenetor {
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:  1fr;
+    display: flex;
+    justify-content: center;
+    column-gap: 20rem;
+    row-gap: 4rem;    
+}
+.contant {
+
+    height: 60vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:  1fr 1fr 1fr; 
+    display: flex;
+    justify-content: center;
+    column-gap: 10rem;
+    row-gap: 2rem;    
+    margin-top: 50px;
+}
+
+.carder .card {
+    border: none;
+}
+
+.tarjut {
+    font-family: $fontZilla;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.carder {
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows:  1fr 1fr ;
+    display: flex;
+    justify-content: center;
+    column-gap: 10rem;
+    row-gap: 2rem;     
+}
+
+.trestanda {
+    height: 60vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:  1fr 1fr 1fr; 
+    display: flex;
+    justify-content: center;
+    column-gap: 10rem;
+    row-gap: 2rem;    
+    margin-top: -50px;
+}
+
+.tortitas {
+    list-style: none;
+    display: flex;
+    justify-content: center;  
+    align-items: flex-end;
+    flex-direction: row;
+    flex-wrap: nowrap; 
+    font-size: 25px;
+    font-family: "ZillaSlab";
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    background-color:antiquewhite;  
+}
+
+
+
+
+
+
+
+

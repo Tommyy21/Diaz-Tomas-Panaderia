@@ -1,0 +1,32 @@
+
+nav {
+    .aoa {
+            list-style: none;
+            display: flex;
+            justify-content: center;  
+            align-items: flex-end;
+            flex-direction: row;
+            flex-wrap: nowrap; 
+            font-size: 25px;
+            font-family: $fontZilla;
+            padding-left: 15px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-right: 15px;
+            background-color:antiquewhite;         
+        }
+
+                        
+    .apa {
+        text-decoration: dashed;
+        padding-right: 40px;
+        margin-top: 13px;
+        font-size: 20px;
+        padding-left: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-right: 50px;
+        color: rgb(85, 82, 82);
+        
+    }
+}
