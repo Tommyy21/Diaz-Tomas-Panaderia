@@ -8,18 +8,7 @@
     column-gap: 20rem;
     row-gap: 4rem;    
 }
-.contant {
 
-    height: 60vh;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows:  1fr 1fr 1fr; 
-    display: flex;
-    justify-content: center;
-    column-gap: 10rem;
-    row-gap: 2rem;    
-    margin-top: 50px;
-}
 
 .carder .card {
     border: none;
@@ -29,9 +18,7 @@
     font-family: $fontZilla;
 }
 
-.card {
-    margin-bottom: 20px;
-}
+
 
 .carder {
     height: 70vh;
